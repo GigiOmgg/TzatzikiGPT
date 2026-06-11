@@ -68,7 +68,7 @@
 </div>
 
 <script>
-    const API_KEY = "https://api.salting.io/demo/r/19f51ed9-57a1-491e-ad77-aba4af048d7e"; 
+    const API_KEY = "https://api.salting.io/r/2e3f92d2-681d-4610-bb09-5e335130cd13"; 
 
     async function send() {
         const input = document.getElementById('userInput');
@@ -84,7 +84,7 @@
         thinking.style.display = "block";
         chatBox.scrollTop = chatBox.scrollHeight;
 
-        const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent?key=${API_KEY}`;
+        const url = `https://api.salting.io/r/3ce72107-cf48-4d2f-91bb-fb128b5b0b0d`;
 
         try {
             const response = await fetch(url, {
